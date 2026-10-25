@@ -1,0 +1,6 @@
+# dsh-tail-panel bundle patch: 宿主侧 /dsh-tail-api + 客户端侧边栏标签页。
+# name 必须是实际包名（cordis 按 name import 包）。
+# insert 只有 id/name，可热挂载；改了 client.js 需刷新页面。
+- insert:
+    - id: dsh-tail-panel
+      name: dsh-tail-panel
